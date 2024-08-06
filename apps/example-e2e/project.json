@@ -1,0 +1,9 @@
+{
+  "name": "example-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/example-e2e/src",
+  "tags": [],
+  "implicitDependencies": ["example"],
+  "// targets": "to see all targets run: nx show project example-e2e --web",
+  "targets": {}
+}
