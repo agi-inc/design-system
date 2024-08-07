@@ -19,7 +19,7 @@ const overlayVariants = cva(
     defaultVariants: {
       variant: 'medium',
     },
-  }
+  },
 );
 
 interface MDSOverlayProps extends VariantProps<typeof overlayVariants> {
@@ -82,7 +82,7 @@ export const MDSOverlay: React.FC<MDSOverlayProps> = ({
       ref={overlayRef}
       className={cn(
         'absolute overflow-hidden',
-        onClick ? 'cursor-pointer' : ''
+        onClick ? 'cursor-pointer' : '',
       )}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
@@ -91,7 +91,7 @@ export const MDSOverlay: React.FC<MDSOverlayProps> = ({
       <div
         className={cn(
           overlayVariants({ variant }),
-          isHovered ? 'opacity-100' : 'opacity-0'
+          isHovered ? 'opacity-100' : 'opacity-0',
         )}
       >
         {overlayContent}

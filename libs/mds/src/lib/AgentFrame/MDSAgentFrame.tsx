@@ -25,13 +25,13 @@ export function MDSAgentFrame({
         'rounded-sm border-none shadow-lg transition-all',
         isExpanded
           ? 'w-[calc(100vw-2rem)] md:w-[480px] 2xl:w-[640px]'
-          : 'w-64 2xl:w-96'
+          : 'w-64 2xl:w-96',
       )}
     >
       <CardHeader
         className={cn(
           'p-2 flex flex-row items-center text-sm',
-          isExpanded ? 'justify-between' : 'justify-center'
+          isExpanded ? 'justify-between' : 'justify-center',
         )}
       >
         <span>{removeSubdomain(frame.sessionUrl)}</span>
@@ -67,7 +67,7 @@ export function MDSAgentFrame({
             'w-full rounded-xs',
             isExpanded
               ? 'pointer-events-auto aspect-debugger-lg'
-              : 'pointer-events-none aspect-debugger-sm 2xl:aspect-debugger-lg'
+              : 'pointer-events-none aspect-debugger-sm 2xl:aspect-debugger-lg',
           )}
           src={`${frame.debuggerUrl}&navBar=false`}
         ></iframe>

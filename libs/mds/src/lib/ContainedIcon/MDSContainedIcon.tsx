@@ -26,7 +26,7 @@ const containedIconVariants = cva(
         lg: 'h-10 w-10 text-lg p-2',
       },
     },
-  }
+  },
 );
 
 export interface MDSContainedIconProps
@@ -47,7 +47,7 @@ export function MDSContainedIcon({
   return (
     <div
       className={cn(
-        containedIconVariants({ type, cursor, containerColor, size })
+        containedIconVariants({ type, cursor, containerColor, size }),
       )}
       onClick={onClick}
     >

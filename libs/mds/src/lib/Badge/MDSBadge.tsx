@@ -32,7 +32,7 @@ const badgeVariants = cva(
       type: 'default',
       size: 'md',
     },
-  }
+  },
 );
 export interface MDSBadgeProps
   extends React.HTMLAttributes<HTMLDivElement>,
@@ -54,7 +54,7 @@ export const MDSBadge = React.forwardRef<HTMLDivElement, MDSBadgeProps>(
       asChild = false,
       ...props
     },
-    ref
+    ref,
   ) => {
     const Comp = asChild ? Slot : 'div';
     return (
@@ -66,6 +66,6 @@ export const MDSBadge = React.forwardRef<HTMLDivElement, MDSBadgeProps>(
         {content}
       </Comp>
     );
-  }
+  },
 );
 MDSBadge.displayName = 'Badge';
