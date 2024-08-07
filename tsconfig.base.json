@@ -18,9 +18,9 @@
       "@multion/mds": ["libs/mds/src/index.ts"],
       "@multion/mds/*": ["libs/mds/src/*"],
       "@multion/ui": ["libs/ui/src/index.ts"],
-      "@multion/ui/*": ["libs/ui/src/*"],
       "@multion/ui-util": ["libs/ui-util/src/index.ts"],
       "@multion/ui-util/*": ["libs/ui-util/src/*"],
+      "@multion/ui/*": ["libs/ui/src/*"]
     }
   },
   "exclude": ["node_modules", "tmp"]
