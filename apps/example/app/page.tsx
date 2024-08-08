@@ -11,6 +11,7 @@ import MDSContainedIconExample from '../components/icon/MDSContainedIcon.example
 import MDSInputExample from '../components/input/MDSInput.example';
 import MdsLayout from './layout';
 import MDSHistoryListExample from '../components/list/MDSHistoryList.example';
+import ToastExample from '../components/toast/Toast.example';
 
 const MdsPage = () => {
   return (
@@ -80,6 +81,15 @@ const MdsPage = () => {
           </CardHeader>
           <CardContent>
             <MDSAgentFrameExample />
+          </CardContent>
+        </Card>
+
+        <Card>
+          <CardHeader>
+            <CardTitle>Toast</CardTitle>
+          </CardHeader>
+          <CardContent>
+            <ToastExample />
           </CardContent>
         </Card>
       </div>

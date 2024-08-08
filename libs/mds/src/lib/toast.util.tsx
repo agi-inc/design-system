@@ -1,3 +1,5 @@
+'use client';
+
 import React from 'react';
 import {
   Toast,
@@ -50,6 +52,6 @@ export function showToast({
         </div>
         <ToastClose />
       </Toast>
-    </ToastProvider>,
+    </ToastProvider>
   );
 }
