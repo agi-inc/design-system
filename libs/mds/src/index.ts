@@ -8,3 +8,4 @@ export * from './lib/List/MDSListItem';
 export * from './lib/Overlay/MDSOverlay';
 export * from './lib/MultiOnLogoSvgIcon';
 export * from './lib/mds.types';
+export * from './lib/toast.util';
