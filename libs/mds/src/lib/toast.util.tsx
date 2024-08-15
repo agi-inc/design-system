@@ -1,6 +1,6 @@
 'use client';
 
-import React from 'react';
+import React, { ReactNode } from 'react';
 import {
   Toast,
   ToastTitle,
@@ -19,7 +19,7 @@ export function showToast({
   description,
   variant = 'default',
   duration = 5000,
-}: ToastProps & { title: string; description: string; duration?: number }) {
+}: ToastProps & { title?: ReactNode; description?: ReactNode; duration?: number }) {
   if (!toastRoot) {
     toastRoot = document.createElement('div');
     document.body.appendChild(toastRoot);
