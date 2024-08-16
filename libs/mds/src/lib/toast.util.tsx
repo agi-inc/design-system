@@ -19,7 +19,11 @@ export function showToast({
   description,
   variant = 'default',
   duration = 5000,
-}: ToastProps & { title?: ReactNode; description?: ReactNode; duration?: number }) {
+}: ToastProps & {
+  title?: ReactNode;
+  description?: ReactNode;
+  duration?: number;
+}) {
   if (!toastRoot) {
     toastRoot = document.createElement('div');
     document.body.appendChild(toastRoot);
@@ -54,4 +58,6 @@ export function showToast({
       </Toast>
     </ToastProvider>
   );
+
+  return handleRemove;
 }

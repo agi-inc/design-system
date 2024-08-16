@@ -12,6 +12,8 @@ import MDSInputExample from '../components/input/MDSInput.example';
 import MdsLayout from './layout';
 import MDSHistoryListExample from '../components/list/MDSHistoryList.example';
 import ToastExample from '../components/toast/Toast.example';
+import AlertsExample from '../components/alerts/Alerts.example';
+import SwitchExample from '../components/switch/Switch.example';
 
 const MdsPage = () => {
   return (
@@ -90,6 +92,24 @@ const MdsPage = () => {
           </CardHeader>
           <CardContent>
             <ToastExample />
+          </CardContent>
+        </Card>
+
+        <Card>
+          <CardHeader>
+            <CardTitle>Alerts</CardTitle>
+          </CardHeader>
+          <CardContent>
+            <AlertsExample />
+          </CardContent>
+        </Card>
+
+        <Card>
+          <CardHeader>
+            <CardTitle>Switch </CardTitle>
+          </CardHeader>
+          <CardContent>
+            <SwitchExample />
           </CardContent>
         </Card>
       </div>

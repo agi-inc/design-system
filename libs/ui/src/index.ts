@@ -20,3 +20,5 @@ export * from './lib/ui/form';
 export * from './lib/ui/toast';
 export * from './lib/ui/use-toast';
 export * from './lib/ui/toaster';
+export * from './lib/ui/alert';
+export * from './lib/ui/switch';
