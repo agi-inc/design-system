@@ -22,3 +22,4 @@ export * from './lib/ui/use-toast';
 export * from './lib/ui/toaster';
 export * from './lib/ui/alert';
 export * from './lib/ui/switch';
+export * from './lib/ui/scroll-area';
