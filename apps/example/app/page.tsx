@@ -14,6 +14,9 @@ import MDSHistoryListExample from '../components/list/MDSHistoryList.example';
 import ToastExample from '../components/toast/Toast.example';
 import AlertsExample from '../components/alerts/Alerts.example';
 import SwitchExample from '../components/switch/Switch.example';
+import TabsExample from '../components/tabs/Tabs.example';
+import CommandExample from '../components/command/Command.example';
+import { TooltipExample } from '../components/tooltip/Tooltip.example';
 
 const MdsPage = () => {
   return (
@@ -112,6 +115,34 @@ const MdsPage = () => {
             <SwitchExample />
           </CardContent>
         </Card>
+
+        <Card>
+          <CardHeader>
+            <CardTitle>Tabs </CardTitle>
+          </CardHeader>
+          <CardContent>
+            <TabsExample />
+          </CardContent>
+        </Card>
+
+        <Card>
+          <CardHeader>
+            <CardTitle>Command </CardTitle>
+          </CardHeader>
+          <CardContent>
+            <CommandExample />
+          </CardContent>
+        </Card>
+
+        <Card>
+          <CardHeader>
+            <CardTitle>Tooltip </CardTitle>
+          </CardHeader>
+          <CardContent>
+            <TooltipExample />
+          </CardContent>
+        </Card>
+
       </div>
     </MdsLayout>
   );
