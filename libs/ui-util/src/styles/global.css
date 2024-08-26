@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 @layer base {
-  :root {
+  :root,
+  .light {
     --background: 0 0% 100%;
     --foreground: 0 0% 3.9%;
 
@@ -72,6 +73,8 @@
     --border: 0 0% 14.9%;
     --input: 0 0% 14.9%;
     --ring: 0 0% 83.1%;
+
+    --radius: 2rem;
 
     --input-background: 0 0% 3.9%;
     --shadow: 0px 0px 8px 0px hsla(0, 0%, 63.9%, 0.6);

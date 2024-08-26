@@ -26,3 +26,4 @@ export * from './lib/ui/command';
 export * from './lib/ui/tooltip';
 export * from './lib/ui/alert';
 export * from './lib/ui/scroll-area';
+export * from './lib/ui/theme-provider';
