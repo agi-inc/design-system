@@ -27,3 +27,7 @@ export * from './lib/ui/tooltip';
 export * from './lib/ui/alert';
 export * from './lib/ui/scroll-area';
 export * from './lib/ui/theme-provider';
+export * from './lib/ui/accordion';
+export * from './lib/ui/slider';
+export * from './lib/ui/radio-group';
+export * from './lib/ui/dropdown-menu';

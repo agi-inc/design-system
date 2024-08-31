@@ -17,6 +17,10 @@ import SwitchExample from '../components/switch/Switch.example';
 import TabsExample from '../components/tabs/Tabs.example';
 import CommandExample from '../components/command/Command.example';
 import { TooltipExample } from '../components/tooltip/Tooltip.example';
+import { AccordionExample } from '../components/accordion/Accordion.example';
+import { SliderExample } from '../components/slider/Slider.exmple';
+import { RadtioGroupExample } from '../components/radio-group/RadioGroup.example';
+import { DropdownMenuExample } from '../components/dropdown-menu/DropdownMenu.example';
 
 const MdsPage = () => {
   return (
@@ -143,6 +147,41 @@ const MdsPage = () => {
           </CardContent>
         </Card>
 
+        <Card>
+          <CardHeader>
+            <CardTitle>Accordion </CardTitle>
+          </CardHeader>
+          <CardContent>
+            <AccordionExample />
+          </CardContent>
+        </Card>
+
+        <Card>
+          <CardHeader>
+            <CardTitle>Slider </CardTitle>
+          </CardHeader>
+          <CardContent>
+            <SliderExample />
+          </CardContent>
+        </Card>
+
+        <Card>
+          <CardHeader>
+            <CardTitle>RadtioGroup </CardTitle>
+          </CardHeader>
+          <CardContent>
+            <RadtioGroupExample />
+          </CardContent>
+        </Card>
+
+        <Card>
+          <CardHeader>
+            <CardTitle>Dropdown </CardTitle>
+          </CardHeader>
+          <CardContent>
+            <DropdownMenuExample />
+          </CardContent>
+        </Card>
       </div>
     </MdsLayout>
   );
