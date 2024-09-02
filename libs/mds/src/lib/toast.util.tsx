@@ -19,29 +19,31 @@ export function showToast({
   description,
   variant = 'default',
   duration = 5000,
+  root = document.body,
 }: ToastProps & {
   title?: ReactNode;
   description?: ReactNode;
   duration?: number;
+  root?: HTMLElement | ShadowRoot;
 }) {
   if (!toastRoot) {
     toastRoot = document.createElement('div');
-    document.body.appendChild(toastRoot);
+    root.appendChild(toastRoot);
   }
 
   const toastElement = document.createElement('div');
   toastRoot.appendChild(toastElement);
 
-  const root = createRoot(toastElement);
+  const renderRoot = createRoot(toastElement);
 
   const handleRemove = () => {
-    root.unmount();
+    renderRoot.unmount();
     if (toastRoot && toastElement.parentNode === toastRoot) {
       toastRoot.removeChild(toastElement);
     }
   };
 
-  root.render(
+  renderRoot.render(
     <ToastProvider>
       <ToastViewport />
       <Toast
