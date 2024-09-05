@@ -21,6 +21,7 @@ import { AccordionExample } from '../components/accordion/Accordion.example';
 import { SliderExample } from '../components/slider/Slider.exmple';
 import { RadtioGroupExample } from '../components/radio-group/RadioGroup.example';
 import { DropdownMenuExample } from '../components/dropdown-menu/DropdownMenu.example';
+import TableExample from '../components/table/Table.example';
 
 const MdsPage = () => {
   return (
@@ -180,6 +181,15 @@ const MdsPage = () => {
           </CardHeader>
           <CardContent>
             <DropdownMenuExample />
+          </CardContent>
+        </Card>
+
+        <Card>
+          <CardHeader>
+            <CardTitle>Table </CardTitle>
+          </CardHeader>
+          <CardContent>
+            <TableExample />
           </CardContent>
         </Card>
       </div>
