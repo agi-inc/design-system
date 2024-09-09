@@ -32,3 +32,4 @@ export * from './lib/ui/slider';
 export * from './lib/ui/radio-group';
 export * from './lib/ui/dropdown-menu';
 export * from './lib/ui/table';
+export * from './lib/ui/sheet';

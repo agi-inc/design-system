@@ -22,6 +22,7 @@ import { SliderExample } from '../components/slider/Slider.exmple';
 import { RadtioGroupExample } from '../components/radio-group/RadioGroup.example';
 import { DropdownMenuExample } from '../components/dropdown-menu/DropdownMenu.example';
 import TableExample from '../components/table/Table.example';
+import SheetExample from '../components/sheet/Sheet.example';
 
 const MdsPage = () => {
   return (
@@ -190,6 +191,15 @@ const MdsPage = () => {
           </CardHeader>
           <CardContent>
             <TableExample />
+          </CardContent>
+        </Card>
+
+        <Card>
+          <CardHeader>
+            <CardTitle>Sheet </CardTitle>
+          </CardHeader>
+          <CardContent>
+            <SheetExample />
           </CardContent>
         </Card>
       </div>
