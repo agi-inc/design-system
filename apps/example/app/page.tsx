@@ -23,6 +23,7 @@ import { RadtioGroupExample } from '../components/radio-group/RadioGroup.example
 import { DropdownMenuExample } from '../components/dropdown-menu/DropdownMenu.example';
 import TableExample from '../components/table/Table.example';
 import SheetExample from '../components/sheet/Sheet.example';
+import SelectExample from '../components/select/Select.example';
 
 const MdsPage = () => {
   return (
@@ -200,6 +201,15 @@ const MdsPage = () => {
           </CardHeader>
           <CardContent>
             <SheetExample />
+          </CardContent>
+        </Card>
+
+        <Card>
+          <CardHeader>
+            <CardTitle>Select </CardTitle>
+          </CardHeader>
+          <CardContent>
+            <SelectExample />
           </CardContent>
         </Card>
       </div>
